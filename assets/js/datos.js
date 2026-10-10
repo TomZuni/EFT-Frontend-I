@@ -1,0 +1,41 @@
+// =====================================================
+// Datos de la tienda: objeto (arreglo de objetos) con la
+// información de los videojuegos disponibles.
+// Cada videojuego tiene: nombre, categoría, precio,
+// descripción e imagen.
+// =====================================================
+
+const videojuegos = [
+  {
+    id: 1,
+    nombre: "Elden Ring",
+    categoria: "Acción",
+    precio: 39990,
+    descripcion: "RPG de acción y mundo abierto: explora las Tierras Intermedias y enfrenta jefes colosales.",
+    imagen: "assets/img/eldenring.jpg"
+  },
+  {
+    id: 2,
+    nombre: "Sekiro: Shadows Die Twice",
+    categoria: "Acción",
+    precio: 29990,
+    descripcion: "Aventura de sigilo y combate con katana en el Japón feudal. Cada duelo exige precisión.",
+    imagen: "assets/img/sekiro.jpg"
+  },
+  {
+    id: 3,
+    nombre: "EA Sports FC 27",
+    categoria: "Deportes",
+    precio: 49990,
+    descripcion: "Simulador de fútbol con equipos, ligas y modos de juego para competir solo o en línea.",
+    imagen: "assets/img/fc27.jpg"
+  },
+  {
+    id: 4,
+    nombre: "Gaming Collection",
+    categoria: "Colecciones",
+    precio: 34990,
+    descripcion: "Selección de títulos populares reunidos en un solo pack para armar tu biblioteca gamer.",
+    imagen: "assets/img/portada.jpg"
+  }
+];
